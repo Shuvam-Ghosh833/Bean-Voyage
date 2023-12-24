@@ -709,7 +709,7 @@
   
   .navbar-link {
     position: relative;
-    font-size: var(--fontSize-label-2);
+    font-size: var(--fontSize-label-1);
     text-transform: uppercase;
     padding-block: 10px;
     max-width: unset;
@@ -1021,7 +1021,30 @@
   .aboutus .first-letter{
     font-size: var(--fontSize-title-1);
   }
-  
+  .aboutus-prof
+  {
+    display: block;
+    width:270px;
+    margin-left: auto;
+    margin-right: auto;
+   border-radius: 50%;
+
+
+  }
+  .profile_desc
+  {
+    display: flex;
+    align-items: center;
+    padding-bottom: 2px;
+    border-bottom: 1px solid var(--gold-crayola);
+    justify-content: center;
+    color: var(--gold-crayola);
+    font-size: var(--fontSize-body-1);
+    font-family: 'Caudex', serif;
+    word-spacing: 3px;
+    line-height: 1.6;
+    
+  }
   /*-----------------------------------*\
     #SPECIAL DISH
   \*-----------------------------------*/
@@ -1568,7 +1591,7 @@
       max-width: 420px;
       margin-inline: auto;
     }
-  
+    
   
   
     /**
