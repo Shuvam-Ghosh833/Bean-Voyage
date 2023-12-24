@@ -48,6 +48,7 @@
     /* font-family */
     --fontFamily-forum: 'Forum', cursive;
     --fontFamily-dm_sans: 'DM Sans', sans-serif;
+    --fontFamily-caudex: 'Caudex',sans-serif;
   
     /* font-size */
     --fontSize-display-1: calc(1.3rem + 6.7vw);
@@ -1007,8 +1008,19 @@
   }
   
   
-  
-  
+  .aboutus{
+    color: var(--gold-crayola);
+    font-size: var(--fontSize-body-1);
+    font-family: 'Caudex', serif;
+    word-spacing: 3px;
+    line-height: 1.6;
+  }
+  .aboutus span{
+    display: inline;
+  }
+  .aboutus .first-letter{
+    font-size: var(--fontSize-title-1);
+  }
   
   /*-----------------------------------*\
     #SPECIAL DISH
@@ -1040,9 +1052,12 @@
   
   .special-dish .btn { margin-inline: auto; }
   
+  /*-----------------------------------*\
+    #ABOUT
+  \*-----------------------------------*/
   
-  
-  
+  .about .section-title { margin-block-end: 40px; }
+  .about .grid-list { margin-block-end: 50px; }
   
   /*-----------------------------------*\
     #MENU
