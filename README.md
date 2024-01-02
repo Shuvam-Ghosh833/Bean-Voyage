@@ -8,4 +8,7 @@
     <li>Making the unique sliding testimonial</li>
     <li>Smoothening the UI</li>
 </ul>
-Live Demo:  https://beanvoyage.onrender.com
+      
+<b>Live Demo:  https://beanvoyage.onrender.com</b>
+<br>
+Note: The Deployment Server used is free version. So it might take longer to load and the long waiting has nothing to do with the code. I made it as efficient as i could
